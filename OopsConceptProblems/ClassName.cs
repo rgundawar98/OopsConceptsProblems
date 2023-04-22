@@ -8,9 +8,16 @@ namespace OopsConceptProblems
 {
     public class ClassName
     {
+        //Non parameterized method
         public void Name()
         {
             Console.WriteLine("Rahul Gundawar");
+        }
+
+        //Parameterized method
+        public void PrintType(string name)
+        {
+            Console.WriteLine(name);
         }
     }
 }
