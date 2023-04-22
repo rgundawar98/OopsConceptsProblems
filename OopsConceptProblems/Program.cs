@@ -10,6 +10,9 @@ namespace OopsConceptProblems
             ClassName name = new ClassName();
             name.Name();
             name.PrintType("Rajesh");
+            ConstructorDemo constructorDemo = new ConstructorDemo();
+           // ConstructorDemo demo = new ConstructorDemo("Rajesh");
+            //ConstructorDemo democonstructor = new ConstructorDemo("Rohan", 121);
             //halt program execution until the user presses a key 
             //Console.ReadKey();
         }
