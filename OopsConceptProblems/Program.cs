@@ -20,10 +20,14 @@ namespace OopsConceptProblems
             //By using var we can display value of enum element
             int count = (int)Data.Shreya;
             Console.WriteLine(count);
-            // ConstructorDemo demo = new ConstructorDemo("Rajesh");
             //ConstructorDemo democonstructor = new ConstructorDemo("Rohan", 121);
             //halt program execution until the user presses a key 
             //Console.ReadKey();
+            //This is for Inheritance
+            ParentClass parent = new ParentClass();
+            Console.WriteLine(parent.name = "Rajesh");
+            parent.TestMethod();
+            parent.Class();
         }
     }
 }
