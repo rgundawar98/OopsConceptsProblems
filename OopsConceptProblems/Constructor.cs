@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace OopsConceptProblems
 {
-    public class ConstructorDemo
+    public class ConstructorDemo:InterfaceTypes
     {
+        public ClassName demo;
         //Constructor does not have a return type
         //Having same name as a class name
         //It automatically invokes if we didn't create when object is created
@@ -22,8 +23,14 @@ namespace OopsConceptProblems
 
         public ConstructorDemo(string Name , int Id)
         {
+            this.demo = demo;
             Console.WriteLine("It is parameterized constructor");
         }
 
+        public void WithoutImplmentationMethod()
+        {
+            // throw new NotImplementedException();
+            Console.WriteLine("Hi there");
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OopsConceptProblems
 {
-    public class ClassName
+    public class ClassName:InterfaceTypes
     {
         //Non parameterized method
         public void Name()
@@ -18,6 +18,11 @@ namespace OopsConceptProblems
         public void PrintType(string name)
         {
             Console.WriteLine(name);
+        }
+
+        public void WithoutImplmentationMethod()
+        {
+            Console.WriteLine("It is ClassName.cs");
         }
     }
 }
