@@ -2,7 +2,7 @@
 
 namespace OopsConceptProblems
 {
-    internal class Program
+    internal class Program:AbstractionDemo
     {
         static void Main(string[] args)
         {
@@ -28,6 +28,15 @@ namespace OopsConceptProblems
             Console.WriteLine(parent.name = "Rajesh");
             parent.TestMethod();
             parent.Class();
+            Program prog = new Program();
+            prog.NonAbstractMethod();
+            prog.AbstractMethod(); 
+        }
+
+        //It will Override keyword the base class method in derived class 
+        public override void AbstractMethod()
+        {
+            Console.WriteLine("This is override/implemented abstract class");
         }
     }
 }
