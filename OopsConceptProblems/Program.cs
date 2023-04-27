@@ -31,6 +31,9 @@ namespace OopsConceptProblems
             Program prog = new Program();
             prog.NonAbstractMethod();
             prog.AbstractMethod(); 
+            //TypeCasting
+            TypeCasting typeCasting = new TypeCasting();
+            typeCasting.Demo();
         }
 
         //It will Override keyword the base class method in derived class 
