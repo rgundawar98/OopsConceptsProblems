@@ -34,13 +34,19 @@ namespace OopsConceptProblems
             ////TypeCasting
             //TypeCasting typeCasting = new TypeCasting();
             //typeCasting.Demo();
-            //Value Type
-            valueType valueType = new valueType();
-            valueType.Value_Type_Demo();
-            ReferenceType referenceType = new ReferenceType();
-            int value = 8;
-            Console.WriteLine(value);
-            referenceType.Reference_Type_Demo(ref value);
+            ////Value Type
+            //valueType valueType = new valueType();
+            //valueType.Value_Type_Demo();
+            //ReferenceType referenceType = new ReferenceType();
+            //int value = 8;
+            //Console.WriteLine(value);
+            //referenceType.Reference_Type_Demo(ref value);
+            //Encapsulation
+            Encapsulation encapsulation = new Encapsulation();
+            Console.WriteLine(encapsulation.Name);
+            encapsulation.Name = "Shiva";
+            Console.WriteLine(encapsulation.Name);
+            Console.WriteLine(encapsulation.RollNo = 456);
 
         }
 
